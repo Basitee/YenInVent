@@ -2,8 +2,8 @@
         function initializeData() {
             if (!localStorage.getItem('users')) {
                 const users = [
-                    { id: "u1", username: "admin", password: "admin123", role: "admin", name: "Admin User" },
-                    { id: "u2", username: "cashier", password: "cashier123", role: "cashier", name: "Cashier User" }
+                    { id: "u1", username: "ambasssador", password: "mAttHeW", role: "admin", name: "Admin User" },
+                    { id: "u2", username: "cashier", password: "Abmas", role: "cashier", name: "Cashier User" }
                 ];
                 localStorage.setItem('users', JSON.stringify(users));
             }
